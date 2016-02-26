@@ -643,6 +643,7 @@
 			-o-transition: all 0.25s ease-in-out;
 			-ms-transition: all 0.25s ease-in-out;
 			transition: all 0.25s ease-in-out;
+			margin-top: 1em;
 		}
 
 			input[type="button"]:hover,
@@ -869,7 +870,6 @@
 			padding: 5em 0 5em 0;
 			margin: 0;
 		}
-		
 			.main > header h2
 			{
 				font-size: 2.25em;
@@ -884,7 +884,14 @@
 				text-align: center;
 			}
 
-		.main > .content
+			/** Don't know why I have to force .normal, but I do. */
+.normal .main > header .small-image
+{
+	min-height: 22em;
+}
+
+
+.main > .content
 		{
 			padding: 6em 0 6em 0;
 		}
