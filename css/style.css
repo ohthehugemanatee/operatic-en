@@ -147,7 +147,11 @@
 		{
 			border-left-color: rgba(255,255,255,0.5);
 		}
-	
+
+	p.centered
+	{
+		text-align: center;
+	}
 	p, ul, ol, dl, table
 	{
 		margin-bottom: 1em;
